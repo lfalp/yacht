@@ -1,0 +1,51 @@
+// importar la fuente del proyecto
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+// variables de color
+:root {
+  --colorTextGray: #0f1928;
+  --colorTextWhite: #ffffff;
+  --colorTextWhite50: #eeeeee;
+  --colorGray500: #0f1928;
+  --colorGray400: #3f4753;
+  --colorGray300: #9fa3a9;
+  --colorGray200: #e7e8e9;
+  --colorGray100: #f3f3f4;
+  --colorSystemColorSuccess: #23ac00;
+  --colorSystemColorWarning: #fad200;
+  --colorSystemColorError: #f04848;
+  --colorBackgroundWhite: #ffffff;
+  --colorSecondary200: #fd9900;
+  --colorSecondary300: #ce7d00;
+  --colorSecondary100: #fdb23e;
+  --colorPrimary300: #006981;
+  --colorPrimary200: #0089a7;
+  --colorPrimary100: #00a7cc;
+
+  //   Textos
+  --textStyleHeadersH3: normal 700 24px/40px "Poppins", sans-serif;
+  --textStyleHeadersH1: normal 700 56px/72px "Poppins", sans-serif;
+  --textStyleHeadersH2: normal 700 35px/40px "Poppins", sans-serif;
+  --textStyleHeadersH4: normal 700 24px/40px "Poppins", sans-serif;
+  --textStyleHeadersH5: normal 700 18px/24px "Poppins", sans-serif;
+  --textStylePRegularSmall: normal 400 12px/16px "Poppins", sans-serif;
+  --textStylePRegularRegular: normal 400 18px/24px "Poppins", sans-serif;
+  --textStylePRegularMedium: normal 400 16px/24px "Poppins", sans-serif;
+  --textStylePSemiBoldSmall: normal 500 16px/24px "Poppins", sans-serif;
+  --textStylePSemiBoldMedium: normal 500 14px/16px "Poppins", sans-serif;
+  --textStylePSemiBoldBig: normal 600 18px/32px "Poppins", sans-serif;
+  --textStylePPBoldSmall: normal 600 12px/16px "Poppins", sans-serif;
+  --textStylePPBoldMedium: normal 700 16px/24px "Poppins", sans-serif;
+  --textStylePPBoldBig: normal 700 18px/24px "Poppins", sans-serif;
+  --textStyleLinksA: normal 500 16px/24px "Poppins", sans-serif;
+
+  //Sombras
+  --effectStyleShadowMenu: 0px 0px 4px #000000;
+  --effectStyleShadowCard: 0px 4px 8px #000000;
+  --effectStyleShadowHover: 0px 4px 8px #000000;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
